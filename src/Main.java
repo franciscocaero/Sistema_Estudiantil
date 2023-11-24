@@ -22,6 +22,9 @@ public class Main {
         miEstudiante.setMateria1(notaFinal);
         System.out.println("Nota final de "+miEstudiante.getNomMateria1()+" : "+ miEstudiante.getMateria1());
         System.out.println(miEstudiante.promedio1(miEstudiante.materia1));
+
+        // segunda materia
+
         System.out.println("Ingrese el nombre de la segunda materia: ");
         String materia2=miVariable.nextLine();
         miEstudiante.setNomMateria2(materia2);
@@ -33,6 +36,48 @@ public class Main {
         miEstudiante.setMateria2(notaFinal);
         System.out.println("Nota final de "+miEstudiante.getNomMateria2()+" : "+ miEstudiante.getMateria2());
         System.out.println(miEstudiante.promedio2(miEstudiante.materia2));
+
+        // tercera materia
+
+        System.out.println("Ingrese el nombre de la tercera materia: ");
+        String materia3=miVariable.nextLine();
+        miEstudiante.setNomMateria3(materia3);
+        System.out.println("Ingrese la nota del primer bimestre de la materia: "+miEstudiante.getNomMateria3());
+        nota1=miVariable3.nextDouble();
+        System.out.println("Ingrese la nota del segundo bimestre de la materia: "+miEstudiante.getNomMateria3());
+        nota2=miVariable3.nextDouble();
+        notaFinal=(nota1+nota2)/2;
+        miEstudiante.setMateria3(notaFinal);
+        System.out.println("Nota final de "+miEstudiante.getNomMateria3()+" : "+ miEstudiante.getMateria3());
+        System.out.println(miEstudiante.promedio3(miEstudiante.materia3));
+
+        // cuarta materia
+
+        System.out.println("Ingrese el nombre de la cuarta materia: ");
+        String materia4=miVariable.nextLine();
+        miEstudiante.setNomMateria4(materia4);
+        System.out.println("Ingrese la nota del primer bimestre de la materia: "+miEstudiante.getNomMateria4());
+        nota1=miVariable3.nextDouble();
+        System.out.println("Ingrese la nota del segundo bimestre de la materia: "+miEstudiante.getNomMateria4());
+        nota2=miVariable3.nextDouble();
+        notaFinal=(nota1+nota2)/2;
+        miEstudiante.setMateria4(notaFinal);
+        System.out.println("Nota final de "+miEstudiante.getNomMateria4()+" : "+ miEstudiante.getMateria4());
+        System.out.println(miEstudiante.promedio4(miEstudiante.materia4));
+
+        // quinta materia
+
+        System.out.println("Ingrese el nombre de la quinta materia: ");
+        String materia5=miVariable.nextLine();
+        miEstudiante.setNomMateria5(materia5);
+        System.out.println("Ingrese la nota del primer bimestre de la materia: "+miEstudiante.getNomMateria5());
+        nota1=miVariable3.nextDouble();
+        System.out.println("Ingrese la nota del segundo bimestre de la materia: "+miEstudiante.getNomMateria5());
+        nota2=miVariable3.nextDouble();
+        notaFinal=(nota1+nota2)/2;
+        miEstudiante.setMateria5(notaFinal);
+        System.out.println("Nota final de "+miEstudiante.getNomMateria5()+" : "+ miEstudiante.getMateria5());
+        System.out.println(miEstudiante.promedio5(miEstudiante.materia5));
 
     }
 }
