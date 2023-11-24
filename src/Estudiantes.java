@@ -1,6 +1,5 @@
 public class Estudiantes {
     public String nombre;
-    public String carrera;
     public int id;
     public String nomMateria1;
     public double materia1;
@@ -19,9 +18,7 @@ public class Estudiantes {
     public String getNombre() {
         return nombre;
     }
-    public String getCarrera() {
-        return carrera;
-    }
+
     public int getId() {
         return id;
     }
@@ -60,9 +57,6 @@ public class Estudiantes {
         this.nombre = newNombre;
     }
 
-    public void setCarrera(String newCarrera) {
-        this.carrera = newCarrera;
-    }
 
     public void setId(int newId) {
         this.id = newId;
@@ -106,5 +100,40 @@ public class Estudiantes {
 
     public void setMateria5(double newMateria5) {
         this.materia5 = newMateria5;
+    }
+    public String promedio1(double materia1){
+        if (materia1<14){
+            return "Supletorio";
+        }else {
+            return"Pasaste";
+        }
+    }
+    public String promedio2(double materia2){
+        if (materia2<14){
+            return "Supletorio";
+        }else {
+            return"Pasaste";
+        }
+    }
+    public String promedio3(double materia3){
+        if (materia3<14){
+            return "Supletorio";
+        }else {
+            return"Pasaste";
+        }
+    }
+    public String promedio4(double materia4){
+        if (materia4<14){
+            return "Supletorio";
+        }else {
+            return"Pasaste";
+        }
+    }
+    public String promedio5(double materia5){
+        if (materia5<14){
+            return "Supletorio";
+        }else {
+            return"Pasaste";
+        }
     }
 }
